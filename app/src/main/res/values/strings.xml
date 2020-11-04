@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Personal Accountuing - 18410100013</string>
+    <string name="tt">Tanggal Transaksi (DD/MM/YYYY)</string>
+    <string name="ut">Uraian Transaksi</string>
+    <string name="nom">Nominal (Rp)</string>
+    <string name="jt">Jenis Transaksi</string>
+    <string name="id">ID : </string>
+    <string name="rt">RINGKASAN TRANSAKSI</string>
+    <string name="debit">Pemasukan (Debit)</string>
+    <string name="kredit">Pengeluaran (Kredit)</string>
+    <string name="sa">Saldo Akhir</string>
+
+</resources>
