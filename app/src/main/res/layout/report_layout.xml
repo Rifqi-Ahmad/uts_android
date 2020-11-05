@@ -103,7 +103,7 @@
             android:gravity="right">
 
             <TextView
-                android:id="@+id/debit"
+                android:id="@+id/TVdebit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -112,7 +112,7 @@
                 android:textStyle="bold"/>
 
             <TextView
-                android:id="@+id/kredit"
+                android:id="@+id/TVkredit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -127,7 +127,7 @@
                 android:background="@android:color/black"/>
 
             <TextView
-                android:id="@+id/saldo"
+                android:id="@+id/TVsaldo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
