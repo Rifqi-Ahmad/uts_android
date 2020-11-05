@@ -9,5 +9,9 @@
     <string name="debit">Pemasukan (Debit)</string>
     <string name="kredit">Pengeluaran (Kredit)</string>
     <string name="sa">Saldo Akhir</string>
+    <string-array name="jenis">
+        <item>Debit</item>
+        <item>Kredit</item>
+    </string-array>
 
 </resources>

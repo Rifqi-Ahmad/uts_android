@@ -25,35 +25,33 @@
                 android:id="@+id/ETtt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:clickable="true"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:hint="@string/tt"
-                android:inputType="date"
-                />
+                android:inputType="date" />
 
             <EditText
                 android:id="@+id/ETut"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minLines="4"
-                android:inputType="textMultiLine"
                 android:hint="@string/ut"
-                />
+                android:inputType="textMultiLine"
+                android:minLines="4" />
 
             <EditText
                 android:id="@+id/ETnom"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:hint="@string/nom"
-                />
+                android:inputType="number"
+                android:hint="@string/nom" />
 
-            <EditText
+            <Spinner
                 android:id="@+id/ETjt"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:hint="@string/jt"/>
+                android:entries="@array/jenis" />
 
 
         </LinearLayout>
@@ -63,32 +61,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:orientation="horizontal"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/Btntambah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Tambah"
-            />
+            android:text="Tambah" />
 
         <Button
             android:id="@+id/Btnreport"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Report"
-            />
+            android:text="Report" />
 
     </LinearLayout>
 
-        <ListView
-            android:id="@+id/LVdata"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/list_data"/>
+    <ListView
+        android:id="@+id/LVdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/list_data" />
 
 </LinearLayout>
